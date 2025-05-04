@@ -1,3 +1,6 @@
 from django.shortcuts import render
+from attendance.models import Attendance
 
-# Create your views here.
+def dashboard(request):
+    attendance_records = Attendance.objects.all()
+    return render(request, 'attendance/dashboard.html', {'attendance_records': attendance_records})
