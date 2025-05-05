@@ -29,7 +29,7 @@ This project implements an AI-powered facial attendance system using Python, Ope
 * **NumPy:** For efficient numerical operations, especially with facial embeddings.
 * **Pickle:** For serializing and deserializing Python objects (used for storing facial encodings in the database).
 * **Django:** A high-level Python web framework used for building the backend, managing the database (models for Employees and Attendance), and creating management commands for running the facial recognition system.
-* **MySQL (or your configured Django database):** For storing employee information and attendance records.
+* **MySQL:** For storing employee information and attendance records.
 
 ## Installation
 
