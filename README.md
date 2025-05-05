@@ -4,6 +4,12 @@
 
 This project implements an AI-powered facial attendance system using Python, OpenCV, Dlib, and Django. It captures video from a webcam, detects faces, recognizes employees, and automatically marks their attendance in a database.
 
+## Demo
+
+![Webcam Capture and Dashboard Preview](preview_images/demopreview.jpg)
+<br>
+![Dashboard Preview](preview_images/dashpreview.png)
+
 ## Features
 
 * **Real-time Facial Detection:** Utilizes Dlib's robust face detection algorithm.
